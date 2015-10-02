@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/ExamPrep">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="ExamPrepDB" password="ty3!@Yvq@GYK#f2F" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/exampprep?zeroDateTimeBehavior=convertToNull" username="root"/>
+</Context>

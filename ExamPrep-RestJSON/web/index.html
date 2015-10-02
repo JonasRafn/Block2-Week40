@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+        <title>Persons</title>
+    </head>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>Persons</h1>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="num" placeholder="Numbers...">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="type">
+                            <option value="name">Name</option>
+                            <option value="name,surname">Name, Surname</option>
+                            <option value="name,surname,address">Name, Surname, Address</option>
+                            <option value="name,surname,address,city">Name, Surname, Address, City</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primar" id="go">Generate</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="col-xs-12">
+                <table class="table table-striped table-condensed table-bordered">
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <tbody id="persons">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
